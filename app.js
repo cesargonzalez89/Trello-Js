@@ -9,7 +9,7 @@ let trello = new Trello(process.env.KEY, process.env.TOKEN);
 
 let cardTitle = `Card Nueva ${new Date()}`
 
-trello.addCard(cardTitle, "LaunchX Card Description", "6264e42be72d295e64f5c083",
+trello.addCard(cardTitle, "LaunchX Card Description", "626f51620346604752ba8cd7",
 	function (error, trelloCard) {
 		if (error) {
 			console.log('Could not add card:', error);
